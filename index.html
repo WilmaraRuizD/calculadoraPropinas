@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de Propina</title>
+         <link rel="stylesheet" href="style/style.css">  
+</head>
+    <body>
+         
+        <div class="id1">
+
+        <h1> Calculadora de Propina </h1>
+    
+        <form action="" class="form_calcular">
+
+        <label class="text" >Total de la cuenta:&nbsp;</label><br> 
+        <input type="text"  id="valorTotal" placeholder="Ejemplo:20000" required><br>
+
+        <label class="text" >Porcentaje de propina:</label><br> 
+        <input  required type="text"  id="valorPropina" placeholder="Ejemplo:10" > <br>
+
+        <button type="button" class="button" id="button" onclick="captura()" >Calcular</button><br>
+        
+        <div class="id2">
+                <h2>Resultado:</h2>
+
+
+            <div class="container">
+                <!-- <div class="p1a"></div>
+                <div class="p1b"><p id="p1"></p></div>
+            </div> 
+            <div class="container"> 
+                <div  class="p1a">/div>
+                <div class="p1b"><p id="p2"></p></div>
+            </div>   
+            <div class="container">
+                <div  class="p1a"></div>
+                <div  class="p1b"><p id="p3"></p></div>
+            </div>
+            </div>         -->
+
+
+            <div class="grid-item"><p>Total de cuenta:$</p></div>
+            <div class="grid-item"><p id="p1"></p></div>
+            <div class="grid-item"><p>Propina&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;$   </p></div>  
+            <div class="grid-item"><p id="p2"></p></div>
+            <div class="grid-item"><p>Total a pagar : &nbsp;&nbsp;$</h3></div>
+            <div class="grid-item"><p id="p3"></p></div>
+
+        </div>   
+        
+       
+        <script src="script/script.js" ></script>
+    </body>
+    
+</html>
