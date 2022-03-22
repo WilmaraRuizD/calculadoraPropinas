@@ -1,5 +1,4 @@
 body{
-
     align-content: center;
     padding: 0;
     margin: 0;
@@ -7,7 +6,6 @@ body{
 }
 
 .id1{
-
     width:700px; 
 	margin:0px auto;
 	text-align:center;
@@ -15,11 +13,9 @@ body{
     border-style: double;
     border-width: 10px 10px;
     border-color: white;
-
 }
 
 .id2{
-
     width: 600px; 
     height: 300px;
     margin-right: 70px;
@@ -29,7 +25,6 @@ body{
     border-radius: 12px;
     border-style: solid;
     background-color: #808580;
-
 }
 
 h1{
@@ -39,7 +34,6 @@ h1{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-    
 }
 
 h2{
@@ -48,14 +42,9 @@ h2{
     align-content: center;
 
     padding-top: 0px;
-    padding-bottom: 0px;
-    
+    padding-bottom: 0px;   
 }
-
 .form_calcula{
-
-    
-
     border-style: solid;
     margin-top: 30px;
     margin-left: 10px;
@@ -69,7 +58,13 @@ h2{
     font-size: 20px;   
     text-align: left; 
 
+    
 }
+.valor1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 .button{
     font-size: 16px;
     border-radius: 12px;
@@ -80,22 +75,9 @@ h2{
 }
 
 .container{
-        
         display: grid;
-        grid-template-columns: auto auto ; 
-          
+        grid-template-columns: auto auto ;          
 }
-
-     /* .p1a {
-    font-size: 15px;
-    text-align: left;
-    
-  }
-
-  .p1b {
-    text-align: left; 
-  } */
-  
 
   .grid-item {
     padding: 4px;

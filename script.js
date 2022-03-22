@@ -5,16 +5,6 @@ const convertir = new Intl.NumberFormat('en-US', {
     minimumFractionDigits: 0
   })
 
-//   var value = 80000
-// alert(convertir.format(value)) 
-
-// let numer1=prompt("ingrese el dijito ");
-
-// numer1=(convertir.format(numer1))
-
-// alert(numer1 )
-
-
     function captura(){
 
         let valorCompra=document.getElementById("valorTotal").value ; //valorCompra ingresado en formulario
@@ -23,16 +13,12 @@ const convertir = new Intl.NumberFormat('en-US', {
     
         if  (!isNaN(valorCompra)){                            //se garantiza que en campo valorCompra se ingrese valores numericos
 
-                
     
-            if (!isNaN(propina)) {                 //y en el en campo propinas se ingrese valores numericos
-
-    
-                valorPropina=(valorCompra*propina)/100  //se aya valor monetario del porcentaje propina    
-
-
+            if (!isNaN(propina))  {                 //y en el en campo propinas se ingrese valores numericos
 
     
+                valorPropina=(valorCompra*propina)/100  //se aya valor monetario del % de propina    
+
                 total= parseInt( valorCompra) + parseInt(valorPropina)  //se gatantiza que se sumen los numeros parseInt
                 let subt = document.getElementById('p1');
                 subt.textContent=convertir.format(valorCompra);  
