@@ -5,15 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculadora de Propina</title>
-         <link rel="stylesheet" href="style/style.css">  
+         <link rel="stylesheet" href="style.css">  
 </head>
-    <body>
-         
+    <body>   
         <div class="id1">
 
         <h1> Calculadora de Propina </h1>
     
-        <form action="" class="form_calcular">
+        <form id="form" >
 
         <label class="text" >Total de la cuenta:&nbsp;</label><br> 
         <input type="text"  class="valor1"  id="valorTotal" placeholder="Ejemplo:20000" required><br>
@@ -21,11 +20,10 @@
         <label class="text" >Porcentaje de propina:</label><br> 
         <input  required type="text" class="valor1" id="valorPropina" placeholder="Ejemplo:10" > <br>
 
-        <button type="button" class="button" id="button" onclick="captura()" >Calcular</button><br>
-        
+        <button class="button" id="button" >Calcular</button><br>
+        </form>
         <div class="id2">
                 <h2>Resultado:</h2>
-
 
             <div class="container">
             <div class="grid-item"><p>Total de cuenta:$</p></div>
@@ -34,11 +32,8 @@
             <div class="grid-item"><p id="p2"></p></div>
             <div class="grid-item"><p>Total a pagar : &nbsp;&nbsp;$</h3></div>
             <div class="grid-item"><p id="p3"></p></div>
-
-        </div>   
-        
-       
-        <script src="script/script.js" ></script>
+     </div>       
+        <script src="script.js" ></script>
     </body>
     
 </html>
